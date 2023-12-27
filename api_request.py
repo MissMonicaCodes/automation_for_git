@@ -18,7 +18,7 @@ def star_wars_1():
             print(f"身高大於{var_height}")
 
             vehicles = json_response['vehicles']
-            print(len(vehicles))
+            #print(len(vehicles))
             assert len(vehicles) == var_vehicles_count,(f"Vehicles數量 == {var_vehicles_count}")
             print("數量等於0")
 
@@ -30,7 +30,6 @@ def star_wars_1():
             print(f"Vehicles數量不等於{var_vehicles_count}")
         else:
             print("其他AssertionError:", e)
-
 
 if __name__ == "__main__":
     star_wars_1()
