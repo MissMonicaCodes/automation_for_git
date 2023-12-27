@@ -15,7 +15,7 @@ def star_wars_1():
             height=int(json_response['height'])
             print(height)
             assert height > var_height,(f"身高大於{var_height}")
-            print(f"身高大於{var_height}")
+            #print(f"身高大於{var_height}")
 
             vehicles = json_response['vehicles']
             #print(len(vehicles))
