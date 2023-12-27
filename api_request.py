@@ -10,7 +10,7 @@ def star_wars_1():
     try:
         if response.status_code == 200:
             json_response = response.json()
-            print(response.status_code)
+            #print(response.status_code)
 
             height=int(json_response['height'])
             print(height)
